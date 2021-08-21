@@ -1,0 +1,66 @@
+body {
+    background-color: #3f3f3f;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+}
+
+main .carte {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.item img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.item-info h4,
+.item-info span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.item-info span {
+    font-weight: bold;
+}
+
+.item-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.totale {
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
